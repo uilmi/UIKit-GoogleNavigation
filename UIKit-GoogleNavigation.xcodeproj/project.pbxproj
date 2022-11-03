@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758A1BEF29126A7A00380EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A1BEE29126A7A00380EAC /* AppDelegate.swift */; };
+		758A1BF129126A7A00380EAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A1BF029126A7A00380EAC /* SceneDelegate.swift */; };
+		758A1BF329126A7A00380EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A1BF229126A7A00380EAC /* ViewController.swift */; };
+		758A1BF629126A7A00380EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758A1BF429126A7A00380EAC /* Main.storyboard */; };
+		758A1BF829126A7D00380EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758A1BF729126A7D00380EAC /* Assets.xcassets */; };
+		758A1BFB29126A7D00380EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758A1BF929126A7D00380EAC /* LaunchScreen.storyboard */; };
+		D35E5CD5DB2AD8C51D61B973 /* Pods_UIKit_GoogleNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6894FA247A7190DCC77FBE /* Pods_UIKit_GoogleNavigation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19786ED1F544C21B1A7C1013 /* Pods-UIKit-GoogleNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKit-GoogleNavigation.release.xcconfig"; path = "Target Support Files/Pods-UIKit-GoogleNavigation/Pods-UIKit-GoogleNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		2C6894FA247A7190DCC77FBE /* Pods_UIKit_GoogleNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKit_GoogleNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F54DAD134C39303362DBC5 /* Pods-UIKit-GoogleNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKit-GoogleNavigation.debug.xcconfig"; path = "Target Support Files/Pods-UIKit-GoogleNavigation/Pods-UIKit-GoogleNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		758A1BEB29126A7A00380EAC /* UIKit-GoogleNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-GoogleNavigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758A1BEE29126A7A00380EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758A1BF029126A7A00380EAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		758A1BF229126A7A00380EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		758A1BF529126A7A00380EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758A1BF729126A7D00380EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758A1BFA29126A7D00380EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758A1BFC29126A7D00380EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758A1BE829126A7A00380EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E5CD5DB2AD8C51D61B973 /* Pods_UIKit_GoogleNavigation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		758A1BE229126A7A00380EAC = {
+			isa = PBXGroup;
+			children = (
+				758A1BED29126A7A00380EAC /* UIKit-GoogleNavigation */,
+				758A1BEC29126A7A00380EAC /* Products */,
+				DFC5EC856F33413DB3CC5168 /* Pods */,
+				B533EBB2F485E5FE6B9318A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		758A1BEC29126A7A00380EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758A1BEB29126A7A00380EAC /* UIKit-GoogleNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758A1BED29126A7A00380EAC /* UIKit-GoogleNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				758A1BEE29126A7A00380EAC /* AppDelegate.swift */,
+				758A1BF029126A7A00380EAC /* SceneDelegate.swift */,
+				758A1BF229126A7A00380EAC /* ViewController.swift */,
+				758A1BF429126A7A00380EAC /* Main.storyboard */,
+				758A1BF729126A7D00380EAC /* Assets.xcassets */,
+				758A1BF929126A7D00380EAC /* LaunchScreen.storyboard */,
+				758A1BFC29126A7D00380EAC /* Info.plist */,
+			);
+			path = "UIKit-GoogleNavigation";
+			sourceTree = "<group>";
+		};
+		B533EBB2F485E5FE6B9318A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C6894FA247A7190DCC77FBE /* Pods_UIKit_GoogleNavigation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFC5EC856F33413DB3CC5168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48F54DAD134C39303362DBC5 /* Pods-UIKit-GoogleNavigation.debug.xcconfig */,
+				19786ED1F544C21B1A7C1013 /* Pods-UIKit-GoogleNavigation.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758A1BEA29126A7A00380EAC /* UIKit-GoogleNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758A1BFF29126A7D00380EAC /* Build configuration list for PBXNativeTarget "UIKit-GoogleNavigation" */;
+			buildPhases = (
+				AF4702E77BB51F7E2824E850 /* [CP] Check Pods Manifest.lock */,
+				758A1BE729126A7A00380EAC /* Sources */,
+				758A1BE829126A7A00380EAC /* Frameworks */,
+				758A1BE929126A7A00380EAC /* Resources */,
+				39BBDC9BD3131C0D4B4C2913 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIKit-GoogleNavigation";
+			productName = "UIKit-GoogleNavigation";
+			productReference = 758A1BEB29126A7A00380EAC /* UIKit-GoogleNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758A1BE329126A7A00380EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					758A1BEA29126A7A00380EAC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 758A1BE629126A7A00380EAC /* Build configuration list for PBXProject "UIKit-GoogleNavigation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758A1BE229126A7A00380EAC;
+			productRefGroup = 758A1BEC29126A7A00380EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758A1BEA29126A7A00380EAC /* UIKit-GoogleNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758A1BE929126A7A00380EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758A1BFB29126A7D00380EAC /* LaunchScreen.storyboard in Resources */,
+				758A1BF829126A7D00380EAC /* Assets.xcassets in Resources */,
+				758A1BF629126A7A00380EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39BBDC9BD3131C0D4B4C2913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKit-GoogleNavigation/Pods-UIKit-GoogleNavigation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKit-GoogleNavigation/Pods-UIKit-GoogleNavigation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKit-GoogleNavigation/Pods-UIKit-GoogleNavigation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4702E77BB51F7E2824E850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIKit-GoogleNavigation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758A1BE729126A7A00380EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758A1BF329126A7A00380EAC /* ViewController.swift in Sources */,
+				758A1BEF29126A7A00380EAC /* AppDelegate.swift in Sources */,
+				758A1BF129126A7A00380EAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		758A1BF429126A7A00380EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758A1BF529126A7A00380EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758A1BF929126A7D00380EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758A1BFA29126A7D00380EAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758A1BFD29126A7D00380EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		758A1BFE29126A7D00380EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758A1C0029126A7D00380EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F54DAD134C39303362DBC5 /* Pods-UIKit-GoogleNavigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M92PY6MRJL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UIKit-GoogleNavigation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ululilmi.UIKit-GoogleNavigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		758A1C0129126A7D00380EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19786ED1F544C21B1A7C1013 /* Pods-UIKit-GoogleNavigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M92PY6MRJL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UIKit-GoogleNavigation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ululilmi.UIKit-GoogleNavigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758A1BE629126A7A00380EAC /* Build configuration list for PBXProject "UIKit-GoogleNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758A1BFD29126A7D00380EAC /* Debug */,
+				758A1BFE29126A7D00380EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758A1BFF29126A7D00380EAC /* Build configuration list for PBXNativeTarget "UIKit-GoogleNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758A1C0029126A7D00380EAC /* Debug */,
+				758A1C0129126A7D00380EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758A1BE329126A7A00380EAC /* Project object */;
+}

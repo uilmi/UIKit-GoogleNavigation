@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIKit_GoogleNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tx-r7-Vyt" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="47" width="390" height="363"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d1-JZ-kvi">
+                                <rect key="frame" x="46" y="454" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jod-Yt-DnU">
+                                <rect key="frame" x="46" y="503" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jod-Yt-DnU" secondAttribute="trailing" symbolic="YES" id="Cog-2Y-Ei1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4d1-JZ-kvi" secondAttribute="trailing" symbolic="YES" id="J99-Ss-vHd"/>
+                            <constraint firstItem="Jod-Yt-DnU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="Oqr-Ok-wgr"/>
+                            <constraint firstItem="7tx-r7-Vyt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ffu-NN-mce"/>
+                            <constraint firstItem="Jod-Yt-DnU" firstAttribute="top" secondItem="4d1-JZ-kvi" secondAttribute="bottom" constant="28" id="ghT-Xf-C6L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7tx-r7-Vyt" secondAttribute="bottom" constant="400" id="hvl-MT-nqo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7tx-r7-Vyt" secondAttribute="trailing" id="p7w-zh-yJG"/>
+                            <constraint firstItem="7tx-r7-Vyt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rhZ-iU-gWN"/>
+                            <constraint firstItem="4d1-JZ-kvi" firstAttribute="top" secondItem="7tx-r7-Vyt" secondAttribute="bottom" constant="44" id="wTY-oJ-2er"/>
+                            <constraint firstItem="4d1-JZ-kvi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="zDX-9C-jih"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblDistances" destination="4d1-JZ-kvi" id="5El-aZ-rE7"/>
+                        <outlet property="lblTime" destination="Jod-Yt-DnU" id="b6D-fj-oi6"/>
+                        <outlet property="mapView" destination="7tx-r7-Vyt" id="5CT-Lu-C89"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246" y="-84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
